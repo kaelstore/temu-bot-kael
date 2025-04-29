@@ -1,9 +1,12 @@
 {
   "name": "temu-bot-kael",
   "version": "1.0.0",
-  "main": "temuBot.js",
   "type": "module",
+  "main": "temuBot.js",
   "scripts": {
     "start": "node temuBot.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.0"
   }
 }
